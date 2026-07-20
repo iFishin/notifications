@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Notification Item",
+  "description": "Multi-project notification system — each project has its own notifications.json file",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique ID for display:once deduplication"
+      },
+      "title": {
+        "type": "string",
+        "description": "Notification title"
+      },
+      "body": {
+        "type": "string",
+        "description": "Notification body text"
+      },
+      "severity": {
+        "enum": ["info", "warning", "important"],
+        "description": "Severity level — affects color rendering"
+      },
+      "link": {
+        "type": "string",
+        "format": "uri",
+        "description": "Click-through URL"
+      },
+      "date": {
+        "type": "string",
+        "description": "Date string (free-form, e.g. 2026-07-20)"
+      },
+      "minVersion": {
+        "type": "string",
+        "description": "Minimum app version (4-segment semver, e.g. 0.2.0.0)"
+      },
+      "maxVersion": {
+        "type": "string",
+        "description": "Maximum app version (4-segment semver, e.g. 0.2.9.9999)"
+      },
+      "display": {
+        "enum": ["once", "always"],
+        "description": "once = show until dismissed (tracked via localStorage), always = show every time"
+      }
+    },
+    "anyOf": [
+      { "required": ["title"] },
+      { "required": ["body"] }
+    ]
+  }
+}

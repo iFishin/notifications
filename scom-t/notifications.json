@@ -1,0 +1,10 @@
+[
+  {
+    "id": "welcome-notification",
+    "title": "通知系统已上线",
+    "body": "SCOM-T 消息通知系统已上线。\n开发者可以通过此文件向用户推送版本更新、重要公告和使用技巧。",
+    "severity": "info",
+    "date": "2026-07-20",
+    "display": "once"
+  }
+]
