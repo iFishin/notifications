@@ -6,5 +6,21 @@
     "severity": "info",
     "date": "2026-07-20",
     "display": "once"
+  },
+  {
+    "id": "tips-usage",
+    "title": "💡 使用技巧：快捷键",
+    "body": "Ctrl+Shift+N 快速新建会话\nCtrl+Shift+C 复制当前日志\nCtrl+F 在日志面板中搜索",
+    "severity": "info",
+    "date": "2026-07-20",
+    "display": "always"
+  },
+  {
+    "id": "v0.2-release",
+    "title": "v0.2.0 版本发布",
+    "body": "新增功能：\n- 消息通知系统\n- 多个编辑器改进\n- 性能优化",
+    "severity": "info",
+    "date": "2026-07-20",
+    "display": "always"
   }
 ]
