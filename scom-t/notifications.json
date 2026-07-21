@@ -13,7 +13,7 @@
     "body": "Ctrl+Shift+N 快速新建会话\nCtrl+Shift+C 复制当前日志\nCtrl+F 在日志面板中搜索",
     "severity": "info",
     "date": "2026-07-20",
-    "display": "always"
+    "display": "once"
   },
   {
     "id": "v0.2-release",
