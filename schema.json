@@ -42,6 +42,10 @@
       "display": {
         "enum": ["once", "always"],
         "description": "once = show until dismissed (tracked via localStorage), always = show every time"
+      },
+      "mode": {
+        "enum": ["badge", "card"],
+        "description": "badge = red dot on About button + toast, card = modal dialog requiring user dismissal"
       }
     },
     "anyOf": [

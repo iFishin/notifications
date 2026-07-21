@@ -22,5 +22,14 @@
     "severity": "info",
     "date": "2026-07-20",
     "display": "always"
+  },
+  {
+    "id": "welcome-card",
+    "title": "🎉 欢迎使用 SCOM-T",
+    "body": "SCOM-T 是一款功能强大的串口调试工具。\n\n主要功能：\n• 串口通信与数据收发\n• 实时信号波形监控\n• 流量统计与连接健康检测\n• 可自定义的布局与主题\n\n点击「我知道了」关闭此消息。",
+    "severity": "info",
+    "date": "2026-07-21",
+    "display": "once",
+    "mode": "card"
   }
 ]
