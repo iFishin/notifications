@@ -21,7 +21,7 @@
     "body": "新增功能：\n- 消息通知系统\n- 多个编辑器改进\n- 性能优化",
     "severity": "info",
     "date": "2026-07-20",
-    "display": "always"
+    "display": "once"
   },
   {
     "id": "welcome-card",
